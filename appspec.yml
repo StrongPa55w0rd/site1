@@ -1,8 +1,10 @@
 version: 0.0
 os: linux
 files:
-   - source: /
+   - source: /code/
      destination: /var/www/site1
+   - source: config/site1-vhost.conf
+     destination: /etc/httpd/conf.d/site1-vhost.conf
 permissions:
    - object: /var/www/site1
      pattern: "**"
