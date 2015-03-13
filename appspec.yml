@@ -4,7 +4,7 @@ files:
    - source: /code/
      destination: /var/www/site1
    - source: config/site1-vhost.conf
-     destination: /etc/httpd/conf.d/site1-vhost.conf
+     destination: /etc/httpd/conf.d/
 permissions:
    - object: /var/www/site1
      pattern: "**"
